@@ -1,11 +1,11 @@
 {
-  "description": "Example dotfile repository with comprehensive configurations",
-  "tags": ["example", "demo", "hyprland", "labwc", "eww", "alacritty"],
-  "author": "Dotfile Manager Demo",
+  "description": "My personal dotfiles",
+  "tags": ["labwc", "weld", "widgets"],
+  "author": "Nathan22211",
   "version": "1.0.0",
-  "compatibility": ["hyprland", "labwc", "sway", "i3"],
-  "programs": ["eww", "alacritty", "picom"],
-  "license": "MIT",
-  "homepage": "https://github.com/example/dotfile-demo",
+  "compatibility": ["labwc"],
+  "programs": ["weld"],
+  "license": "GPL3",
+  "homepage": "https://github.com/Nathan22211/dotmsg-repo",
   "documentation": "README.md"
 }
