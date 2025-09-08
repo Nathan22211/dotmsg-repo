@@ -1,0 +1,46 @@
+# LabWC-specific EWW Configuration
+# Optimized for LabWC window manager
+
+widgets {
+    time {
+        interval = 1s
+        format = "%H:%M:%S"
+    }
+    
+    date {
+        interval = 1m
+        format = "%Y-%m-%d"
+    }
+    
+    labwc_workspace {
+        interval = 100ms
+        format = "Workspace: {workspace}"
+    }
+}
+
+windows {
+    bar = {
+        name = "bar"
+        monitor = 0
+        anchor_to = "top"
+        anchor_from = "top"
+        x = 0
+        y = 0
+        width = "100%"
+        height = 30
+        stack = "horizontal"
+        
+        children = {
+            labwc_workspace = {
+                widget = "labwc_workspace"
+            }
+            time = {
+                widget = "time"
+            }
+            date = {
+                widget = "date"
+            }
+        }
+    }
+}
+

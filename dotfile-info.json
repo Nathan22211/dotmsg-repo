@@ -1,0 +1,11 @@
+{
+  "description": "Example dotfile repository with comprehensive configurations",
+  "tags": ["example", "demo", "hyprland", "labwc", "eww", "alacritty"],
+  "author": "Dotfile Manager Demo",
+  "version": "1.0.0",
+  "compatibility": ["hyprland", "labwc", "sway", "i3"],
+  "programs": ["eww", "alacritty", "picom"],
+  "license": "MIT",
+  "homepage": "https://github.com/example/dotfile-demo",
+  "documentation": "README.md"
+}
